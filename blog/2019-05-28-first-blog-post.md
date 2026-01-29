@@ -1,12 +1,42 @@
 ---
-slug: first-blog-post
-title: First Blog Post
-authors: [slorber, yangshun]
-tags: [hola, docusaurus]
+slug: Welcome
+title: 信息竞赛初中生
+authors: [AC]
+tags: [hello, introduction]
 ---
+# 欢迎来到 AC Space！
 
-Lorem ipsum dolor sit amet...
+## 关于这个站点
 
-<!-- truncate -->
+你好！我是一名信息竞赛初中生，这个站点是我用来记录和分享以下内容的个人空间：
 
-...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+- **算法博客**：记录我学习算法的心得和笔记
+- **竞赛题解**：分享各种编程竞赛题目的解题思路和代码
+- **个人经历**：记录我在信息竞赛道路上的成长和收获
+
+## 为什么创建这个站点
+
+作为一名信息竞赛选手，我发现：
+
+1. **记录是最好的学习方式**：通过写作来整理思路，加深对算法的理解
+2. **分享可以帮助他人**：希望我的经验能对其他同学有所帮助
+3. **成长需要见证**：记录自己的进步，看看自己的成长轨迹
+
+## 技术栈
+
+- **框架**：Docusaurus
+- **语言**：TypeScript、JavaScript、Markdown
+- **部署**：GitHub Pages
+
+## 联系方式
+
+- **邮箱**：dearhangyang@qq.com
+- **GitHub**：[dearhanyang](https://github.com/dearhanyang)
+
+## 未来计划
+
+- 分享各类竞赛题解
+- 记录竞赛备赛过程
+- 分享学习资源和技巧
+
+感谢你的访问！希望这里的内容对你有所帮助。让我们一起在信息竞赛的道路上共同成长！
