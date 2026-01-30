@@ -84,6 +84,7 @@ const config: Config = {
           label: 'Editorial',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/about', label: 'About Me', position: 'right' },
         {
           href: 'https://github.com/dearhanyang/blog',
           label: 'GitHub',
