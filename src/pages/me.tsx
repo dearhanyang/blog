@@ -10,7 +10,7 @@ const MePage = () => {
         <div className={styles.profileCard}>
           <div className={styles.avatarContainer}>
             <img
-              src="img/avatar.jpg"
+              src={require('@site/static/img/avatar.jpg').default}
               alt="Avatar"
               className={styles.avatar}
             />

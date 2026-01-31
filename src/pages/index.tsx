@@ -2,7 +2,8 @@ import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-
+import Icon_Emal from '@site/static/img/email.svg';
+import Icon_QQ from '@site/static/img/qq.svg';
 import styles from './index.module.css';
 
 export default function Home(): ReactNode {
@@ -14,7 +15,7 @@ export default function Home(): ReactNode {
       <div className={styles.contentContainer}>
         <div className={styles.avatarContainer}>
           <img
-            src="img/avatar.jpg"
+            src={require('@site/static/img/avatar.jpg').default}
             alt="AC Avatar"
             className={styles.avatar}
           />
@@ -39,7 +40,7 @@ export default function Home(): ReactNode {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="img/email.svg" alt="Email" className={styles.socialIcon} />
+            <Icon_Emal title="Email" className={styles.socialIcon} />
           </a>
 
           <a
@@ -49,7 +50,7 @@ export default function Home(): ReactNode {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="img/qq.svg" alt="QQ" className={styles.socialIcon} />
+            <Icon_QQ title="QQ" className={styles.socialIcon} />
           </a>
         </div>
       </div>
