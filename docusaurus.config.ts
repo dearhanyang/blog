@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'AC Space',
   tagline: '记录日常的学习、思考、分享',
-  favicon: 'img/favicon.ico',
+  favicon: '/img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -66,7 +66,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: '/img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -74,7 +74,7 @@ const config: Config = {
       title: 'AC Space',
       logo: {
         alt: 'AC Space Logo',
-        src: 'img/logo.jpg',
+        src: '/img/logo.jpg',
       },
       items: [
         {
