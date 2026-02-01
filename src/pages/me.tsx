@@ -2,10 +2,18 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './me.module.css';
 import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 
 const MePage = () => {
   return (
-    <Layout title="Hello" description="Hello Me">
+    <Layout title="关于我" description="AC Space - 关于我的个人介绍，包括兴趣爱好和竞赛经历">
+      <Head>
+        <meta name="keywords" content="个人介绍,兴趣爱好,编程,算法,竞赛,围棋,画画,篮球,羽毛球,游戏,动漫,旅游" />
+        <meta name="description" content="AC Space - 关于我的个人介绍，包括兴趣爱好和竞赛经历" />
+        <meta name="og:title" content="关于我 - AC Space" />
+        <meta name="og:description" content="AC Space - 关于我的个人介绍，包括兴趣爱好和竞赛经历" />
+        <meta name="og:image" content="https://dearhanyang.github.io/ac-space/img/avatar.jpg" />
+      </Head>
       <div className={styles.container}>
         <div className={styles.profileCard}>
           <div className={styles.avatarContainer}>

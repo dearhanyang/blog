@@ -64,9 +64,62 @@ const config: Config = {
     ],
   ],
 
+  // SEO head tags
+  headTags: [
+    // Preconnect to important domains
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://github.com',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+      },
+    },
+    // Structured data
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org/',
+        '@type': 'Organization',
+        name: 'AC Space',
+        url: 'https://dearhanyang.github.io/ac-space/',
+        logo: 'https://dearhanyang.github.io/ac-space/img/logo.jpg',
+        description: '记录日常的学习、思考、分享，专注于算法竞赛和编程技术',
+      }),
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
-    image: '/img/docusaurus-social-card.jpg',
+    image: 'img/ac-social-card.jpg',
+    // SEO metadata
+    metadata: [
+      {
+        name: 'keywords',
+        content: '算法,编程,竞赛,C++,NOIP,CSP,AtCoder,学习笔记,题解,技术博客',
+      },
+      {
+        name: 'description',
+        content:
+          'AC Space - 记录日常的学习、思考、分享，专注于算法竞赛和编程技术',
+      },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'og:title', content: 'AC Space' },
+      {
+        name: 'og:description',
+        content: '记录日常的学习、思考、分享，专注于算法竞赛和编程技术',
+      },
+      { name: 'og:image', content: 'img/ac-social-card.jpg' },
+    ],
     colorMode: {
       respectPrefersColorScheme: true,
     },
