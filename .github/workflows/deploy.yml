@@ -21,6 +21,7 @@ jobs:
         run: |
           npm cache clean --force
           rm -rf node_modules
+          rm -rf build
           rm -rf .docusaurus
 
       - name: Install dependencies
